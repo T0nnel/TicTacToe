@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-orange-400">
+        <h1 class="text-5xl  italic text-center text-black-800 mt-7">TicTacToe</h1>
+
+        <!-- class="flex top-1/4 left-1/2 absolute -translate-x-1/2 -translate-y-1/2" -->   
+        <div class="flex justify-between mt-10">
+        <h1 class=" ml-10  text-3xl" id="playerx-el">Player X</h1>
+        <h1 class=" mr-10  text-3xl" id="playero-el">Player O</h1>
+        </div>
+        <div class="flex justify-between ">
+        <h1 class=" ml-20  text-4xl" id="playerx-score">0</h1>
+        <h1 class=" mr-20  text-4xl" id="playero-score">0</h1>
+        </div>
+        <h2 class="text-3xl mb-3 text-center" id="playerText"></h2>
+        <div class="boxes">
+        <div class="box text-white text-center mt-4 text-7xl " id="0"></div>
+        <div class="box  text-white text-center mt-4 text-7xl " id="1"></div>
+        <div class="box text-white text-center mt-4 text-7xl " id="2"></div>
+        </div>
+        <div class="boxes1">
+        <div class="box text-white text-center mt-4 text-7xl " id="3"></div>
+        <div class="box text-white text-center mt-4 text-7xl " id="4"></div>
+        <div class="box text-white text-center mt-4 text-7xl " id="5"></div>
+        </div>
+        <div class="boxes2">
+        <div class="box text-white text-center mt-4 text-7xl " id="6"></div>
+        <div class="box text-white text-center mt-4 text-7xl " id="7"></div>
+        <div class="box text-white text-center mt-4 text-7xl " id="8"></div>
+        </div>
+        <div class="flex justify-between">
+        <!-- <button class="border-4 border-black  left-1/3 bottom-16 text-2xl absolute -translate-x-1/2 -translate-y-1/2  py-2 px-6 rounded-xl">Start Game</button> -->
+        <button onclick="restart()" id="restart-el" class="  border-4 border-black  left-1/2 bottom-16 text-2xl absolute -translate-x-1/2 -translate-y-1/2  py-2 px-12 rounded-xl">Restart</button>
+        </div>
+        <script src="/src/main.js"></script>
+     </body>
+</html> 

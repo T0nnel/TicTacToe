@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fjalla+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap" rel="stylesheet">    
+</head>
+<div class="bbb mt-5">
+<div class="boxes">
+<div class="box" id="0"><h1 class="text-white text-center mt-4 text-6xl " >X</h1></div>
+<div class="box" id="1"><h1 class="text-white text-center mt-4 text-6xl " >0</h1></div>
+<div class="box" id="2"><h1 class="text-white text-center mt-4 text-6xl " >X</h1></div>
+</div>
+<div class="boxes1">
+<div class="box" id="3"><h1 class="text-white text-center mt-4 text-6xl " >0</h1></div>
+<div class="box" id="4"><h1 class="text-white text-center mt-4 text-6xl " >X</h1></div>
+<div class="box" id="5"><h1 class="text-white text-center mt-4 text-6xl " >0</h1></div>
+</div>
+<div class="boxes2">
+<div class="box" id="6"><h1 class="text-white text-center mt-4 text-6xl " >X</h1></div>
+<div class="box" id="7"><h1 class="text-white text-center mt-4 text-6xl " >0</h1></div>
+<div class="box" id=""><h1 class="text-white text-center mt-4 text-6xl " >X</h1></div>
+</div>
+</div>
+<body class="bg-orange-400">
+    <form id="myForm" action="game.html">
+    <div class="justify-between flex mt-10">
+    <div class="ml-4">
+    <h1 class=" mb-2 text-4xl ml-12" id="playerx-enter">Player X</h1>
+    <input id="input1-el" class="border-2 border-black m-2 text-2xl px-7 py-2 w-60" type="text" placeholder="enter name" required>
+   </div>
+   <div class="mr-10">
+    <h1 class="mb-2 text-4xl ml-12" id="playero-enter">Player O</h1>
+    <input id="input2-el" class="border-2 border-black m-2 text-2xl px-7 py-2 w-64" type="text" placeholder="enter name" required>
+   </div>
+    </div>
+   <button class="border-4 border-black text-3xl px-8 py-2 rounded-xl top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2 mt-44" id="submit-el">START</button>
+</form>
+<script src="/src/main.js"></script>
+</body>
+</html> 
